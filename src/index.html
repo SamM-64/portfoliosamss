@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://user-images.githubusercontent.com/71389760/234578577-61fd1ddc-8a34-4b01-9903-ac082e1cca92.jpg" />
+    <title>Portfolio Samantha Morata</title>
+    <link rel="icon" type="image/png" href="/static/assets/images/image.jpg" />
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/base.css"/>
+    <link rel="stylesheet" href="./css/card.css"/>
+    <link rel="stylesheet" href="./css/thumbnail.css"/>
+    <link rel="stylesheet" href="./css/path.css"/>
+    <link rel="stylesheet" href="./css/skill-box.css"/>
+    <link rel="stylesheet" href="./css/list.css"/>
+    <!-- <link rel="favicon" href="./src/img/favicon.png"/> -->
+</head>
+<body>
+    <canvas class="webgl"></canvas>
+    <div class='cursor' id="cursor"></div>
+<!-- 
+    <header>
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">×</a>
+            <ul>
+              <li><a href="./about.html">A propos</a></li>
+              <li><a href="./projets.html">Projets</a></li>
+            </ul>
+          </div>
+          
+          <a href="#" id="openBtn">
+            <span class="burger-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </a>
+          
+    </header> -->
+
+    <section class="section" id="section1">
+      <div class="page">
+        <div class="card" id="person">
+          <div class="card-cover" style="background-image: url('https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80')"></div>
+            <img id="person-picture" src=""/>
+            <section>
+                <h1 id="person-fullname"></h1>
+                <h2 id="person-job"></h2>
+                <p>Hello, je suis <strong id="person-firstname"></strong>, <strong id="person-position"></strong> passionnée par le domaine de  <strong id="person-speciality"></strong> actuellement <strong id="person-company"></strong> dans la ville de <strong id="person-city">Nantes</strong>.</p>
+                <div>
+                    <a class="button" target="_blank" id="person-email">M'envoyer un email</a>
+                    <span class="or"> ou </span>
+                    <a target="_blank" class="button" href="https://github.com/SamM-64">Voir mon GitHub</a>
+                </div>
+                <hr/>
+            </section>
+            <section>
+                <h3>Compétences</h3>
+                <ul class="list">
+                    <li>
+                        <div class="skill-box">
+                            <span class="skill-favorite fa fa-bolt"></span>
+                            Terraform / Ansible
+                            <div class="box-well">
+                               Automatisation
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                      <div class="skill-box">
+                        <span class="skill-favorite fa fa-bolt"></span>
+                        Kubernetes / Docker
+                        <div class="box-well">
+                          DevOps
+                        </div>
+                    </div>
+                    </li>
+                    <li>
+                        <div class="skill-box">
+                            <span class="skill-favorite fa fa-bolt"></span>
+                            Three.js / React
+                            <div class="box-well">
+                                Framework
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-box">
+                            Mysql / Redis
+                            <div class="box-well">
+                               BDD
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-box">
+                            GitHub/GitLab
+                            <div class="box-well">
+                                Versioning
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                      <div class="skill-box">
+                        Azure / OVH
+                        <div class="box-well">
+                            Cloud
+                        </div>
+                    </div>
+                    </li>
+                </ul>
+                <hr/>
+            </section>
+            <section>
+                <h3>Réalisations</h3>
+                <div class="thumbnail" >
+                    <div class="thumbnail-cover" style="background-image: url(https://source.unsplash.com/random/800*600?code)"></div>
+                    <div class="thumbnail-content">
+                        <span class="badge">Cloud</span>
+                        <p class="thumbnail-title">B2E3</p>
+                        <p class="thumbnail-description">Déploiement d'une infrastructure et d'une architecture applicative en microservices.</p>
+                        <div class="thumbnail-footer">
+                            <a href="https://dev.azure.com/Simplon-AdminCloud-Bordeaux/_git/b2e1-gr3" target="_blank">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumbnail" >
+                    <div class="thumbnail-cover" style="background-image: url(https://source.unsplash.com/random/800*600?fox)"></div>
+                    <div class="thumbnail-content">
+                        <span class="badge">Programmation</span>
+                        <p class="thumbnail-title">Fox</p>
+                        <p class="thumbnail-description">Renard 3D en Three.js
+                          <br> 
+                          <br>Three.js Journey
+                         <br> (en cours)
+                        </p>
+                        <div class="thumbnail-footer">
+                            <a href="https://fox-green.vercel.app/" target="_blank">Voir le projet</a>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+            </section>
+            <section>
+                <h3>Parcours</h3>
+                <div class="path">
+                    <div class="step">
+                        <p class="step-title">Simplon by microsoft - Icap - 2023 à 2025</p>
+                        <p>Apprentie admin cloud</p>
+                    </div>
+                    <div class="step">
+                        <p class="step-title">Openclassrooms - Juin à Novembre 2022</p>
+                        <p>développeuse web full-stack</p>
+                    </div>
+                    <div class="step">
+                        <p class="step-title">Wild code school - Mars à Mai 2022</p>
+                        <p>Développeuse web et web mobile</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    </section>
+   
+
+    <script type="module" src="./script.js"></script>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
