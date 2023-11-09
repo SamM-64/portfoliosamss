@@ -14,7 +14,7 @@ function init(){
     // Remplacez les valeurs suivantes par les données spécifiques à la personne
     var user = {
         name: { first: "Samantha", last: "Morata" },
-        picture: { large: "./assets/images/me.jpg" },
+        picture: { large: "https://media.licdn.com/dms/image/C4E03AQHzQuBzf1xP2w/profile-displayphoto-shrink_800_800/0/1655208276384?e=1704931200&v=beta&t=XPbNYBrE4dk2nvIn_X5T7ZldfgjK-GKIn2Hf2gYVdxI" },
         gender: "female",  // ou "female" selon le cas
         position: positions.find(pos => pos.id === "admin"),  // Remplacez "front" par l'id de la position souhaitée
         company: "Icap",  // Remplacez par le nom de l'entreprise si nécessaire
